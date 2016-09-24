@@ -1,5 +1,4 @@
-test.property:  "Hello world"
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
-    #licensingservice: /licensing/**
+zuul.routes.licensingservice: /licensing/**
