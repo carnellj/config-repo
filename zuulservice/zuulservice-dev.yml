@@ -1,6 +1,3 @@
-zuul:
-  ignored-services: "*"
-  prefix:  /api
-  routes:
-    organizationservice: /organization/**
-    #licensingservice: /licensing/**
+zuul.ignored-services: "*"
+zuul.prefix:  /api
+zuul.routes.organizationservice: /organization/**

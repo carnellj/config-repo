@@ -1,6 +1,5 @@
-zuul:
-  ignored-services: "*"
-  prefix:  /api
-  routes:
-    organizationservice: /organization/**
+test.property:  "Hello world"
+zuul.ignored-services: "*"
+zuul.prefix:  /api
+zuul.routes.organizationservice: /organization/**
     #licensingservice: /licensing/**
