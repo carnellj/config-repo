@@ -1,4 +1,5 @@
 zuul:
+  ignore-services: "*"
   prefix:  /api
   routes:
     organizationservice: /organization/**
