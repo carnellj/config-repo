@@ -3,4 +3,4 @@ zuul:
   prefix:  /api
   routes:
     organizationservice: /organization/**
-    licensingservice: /licensing/**
+    #licensingservice: /licensing/**
