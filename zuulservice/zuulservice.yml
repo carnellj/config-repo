@@ -3,4 +3,4 @@ zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.licensestatic.path:  /licensestatic/**
-zuul.routes.licensestatic.url:   http://licensingservice:8080
+zuul.routes.licensestatic.url:   http://licensingservice-static:8081
