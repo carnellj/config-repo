@@ -4,4 +4,5 @@ zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.licensestatic.path:  /licensestatic/**
 zuul.ribbon.eureka.enabled:  false
-licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
+#licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
+licensestatic.ribbon.listOfServers: http://google.com, http://foxnews.com
