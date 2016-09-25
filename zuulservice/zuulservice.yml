@@ -2,5 +2,5 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
-zuul.routes.orgservicestatic.path:  /orgservice/**
-zuul.routes.orgservicestatic.url:   http://organizationservice:8085
+zuul.routes.licensestatic.path:  /licensestatic/**
+zuul.routes.licensestatic.url:   http://licensingservice:8080
