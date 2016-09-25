@@ -1,7 +1,2 @@
-#zuul.prefix:  /api
-#zuul.routes.organizationservice: /organization/**
-
-
-zuul.ignored-services: '*'
+zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
-zuul.routes.licensingservice: /licensing/**
