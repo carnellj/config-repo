@@ -1,6 +1,6 @@
 zuul.ignored-services: "orgservice-new"
 #zuul.prefix:  /api
-#zuul.routes.organizationservice: /organization/**
+zuul.routes.organizationservice: /organization/**
 #zuul.routes.licensingservice: /licensing/**
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
