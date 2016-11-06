@@ -3,7 +3,7 @@ zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 #zuul.routes.auth-server.path: /auth/**
-zuul.routes.sensitiveHeaders: Authorization
+zuul.routes.sensitiveHeaders: Cookie,Set-Coookie,Authorization
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
