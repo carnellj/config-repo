@@ -1,7 +1,6 @@
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
-#spring.datasource.url: "jdbc:postgresql://eagle-eye-aws-dev.cpxog63l4usu.us-west-1.rds.amazonaws.com:5432/eagle_eye_aws_dev"
 spring.datasource.url: "jdbc:postgresql://eagle-eye-aws-dev2.cpxog63l4usu.us-west-1.rds.amazonaws.com:5432/eagle_eye_aws_dev2"
 spring.datasource.username: "postgres_aws_dev"
 spring.datasource.password: "p0stgr1s_aws_dev"
