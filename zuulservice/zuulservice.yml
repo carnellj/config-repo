@@ -1,5 +1,5 @@
 zuul.ignored-services: "configserver,zuulservice"
-#zuul.prefix:  /api
+zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
