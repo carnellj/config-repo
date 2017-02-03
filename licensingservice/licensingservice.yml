@@ -1,4 +1,5 @@
 example.property: "I AM IN THE DEFAULT"
+encrypted.property: "{cipher}815d5365516f67e124c862611be2301485ad549baabf2efeaa859e335144fc69"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
