@@ -6,7 +6,7 @@ zuul.routes.authenticationservice: /auth/**
 zuul.routes.licensestatic.path: /licensestatic/**
 zuul.routes.licensestatic.url:  http://licenseservice-static:8081
 zuul.routes.licensestatic.serviceId: licensestatic
-#zuul.routes.licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
+zuul.routes.licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
 #ribbon.eureka.enabled: false
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
